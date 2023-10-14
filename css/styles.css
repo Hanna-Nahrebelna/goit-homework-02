@@ -1,0 +1,61 @@
+/* ========COMMON STYLES======== */
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+}
+/* ========/COMMON STYLES======== */
+
+/* ========HEADR STYLES======== */
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.logo-span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+}
+
+.menu-link {
+    /* Body Medium */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.041;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #4D5AE5;
+}
+/* ========/HEADR STYLES======== */
+
+
+/*========FOOTER=============*/
+.logotype-span {
+    color: #F4F4FD;
+}
