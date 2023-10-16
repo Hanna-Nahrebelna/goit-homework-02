@@ -34,7 +34,7 @@ body {
     color: var(--NAVY-BLUE, #4d5ae5);
 }
 
-.logo-span {
+.span-headr {
     color: #2e2f42;
 }
 
@@ -72,7 +72,7 @@ body {
     background-color: #2e2f42;
 }
 
-.title-h2 {
+.title-benefits {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -132,14 +132,28 @@ body {
     background-color: #F4F4FD;
 }
 
-.team-h3 {    
+.title-team {    
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        line-height: 1.11;        
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.team {    
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE, #2E2F42);    
+}
+
+.team-background {
+    background-color: #FFFFFF;
 }
 
 .team-text {    
@@ -151,7 +165,17 @@ body {
     color: var(--SLATE, #434455);
 }
 
-.portfolio-h3 {
+.title-portfolio {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);        
+}
+
+.portfolio {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -198,7 +222,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 /* ========/FOOTER============= */
