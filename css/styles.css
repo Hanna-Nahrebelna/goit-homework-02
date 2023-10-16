@@ -19,6 +19,7 @@ button:focus {
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 /* ========/COMMON STYLES======== */
 
@@ -27,7 +28,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--NAVY-BLUE, #2E2F42);
@@ -39,8 +40,7 @@ body {
     font-weight: 700;
     line-height: 1.166;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--IRIS, #4D5AE5);
+    text-transform: uppercase;    
 }
 
 .menu-link {
@@ -55,7 +55,11 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .mailto-link,
@@ -63,15 +67,18 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE, #434455);
+    color: var(--SLATE, #404BBF);
 }
 /* ========/HEADR STYLES======== */
 
 /* ========BODE STYLE=========== */
-h1 {
+.our-benefits {
+    background-color: #2E2F42;
+}
+
+.main-title {
     text-align: center;     
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
@@ -80,16 +87,19 @@ h1 {
     color: var(--WHITE, #FFFFFF);    
 }
 
-button {
+.button-mail {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--WHITE, #FFFFFF);
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
+}
+
+.button-mail:hover,
+.button-mail:focus {
+    background-color: #404BBF;
 }
 
 h2 {
@@ -119,6 +129,10 @@ h2 {
     color: var(--SLATE, #434455);
 }
 
+.our-team {
+    background-color: #F4F4FD;
+}
+
 .team-h3 {    
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -143,7 +157,7 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.016em;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -158,16 +172,34 @@ h2 {
 /* ========/BODE STYLE=========== */
 
 /* ========FOOTER============= */
-.logotype-span {
-    color: #F4F4FD;
+.logo-span {
+    color: #4D5AE5;
+}
+
+.mail-footer {
+    background-color: #2E2F42;
+}
+
+.logotype-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.span-studio {
+    color: #F4F4fD;
 }
 
 .footer-text {    
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.013em;
-    color: var(--CLOUD, #F4F4FD);
+    letter-spacing: 0.02em;
+    color: #4D5AE5;
 }
 
 /* ========/FOOTER============= */
