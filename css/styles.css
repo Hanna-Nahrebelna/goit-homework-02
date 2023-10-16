@@ -65,6 +65,12 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
 /* ========/HEADR STYLES======== */
 
 /* ========BODE STYLE=========== */
@@ -111,7 +117,7 @@ body {
     background-color: #404BBF;
 }
 
-.benefits-h3 {
+.benefits {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
